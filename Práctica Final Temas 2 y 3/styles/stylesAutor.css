@@ -1,5 +1,13 @@
+/* Alejandro Barrionuevo Rosado
+ * CSS de la pagina autor       */
+
 body {
-  background-color: #015e61; /* color azul */
+  background-color: #015e618f; /* color azul */
+}
+
+hr {
+  border-color: #009aa0;
+  background-color: #009aa0;
 }
 
 ul {
@@ -24,4 +32,36 @@ li a {
 
 li a:hover {
   background-color: #015e61;
+}
+
+header{
+  color: white;
+}
+
+main {
+  color: white;
+}
+
+
+section {
+  color: #015e61;
+}
+
+.correo {
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+img {
+  height: 200px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap
 }
