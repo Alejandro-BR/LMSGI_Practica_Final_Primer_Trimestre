@@ -1,3 +1,10 @@
+/* Alejandro Barrionuevo Rosado
+ * CSS de la pagina del formulario  */
+
+body {
+  background-color: white;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -20,4 +27,79 @@ li a {
 
 li a:hover {
   background-color: #015e61;
+}
+
+fieldset {
+  justify-content: center;
+  width: 600px;
+  background-color: #54b4b78f;
+}
+
+legend {
+  text-align: center;
+}
+
+input[type="text"] {
+  color: rgb(44, 47, 46);
+  background-color: beige;
+  padding: 8px;
+  border: 1px solid beige;
+  border-radius: 4px;
+}
+
+input[type="email"] {
+  color: rgb(44, 47, 46);
+  background-color: beige;
+  padding: 8px;
+  border: 1px solid beige;
+  border-radius: 4px;
+}
+
+input[type="number"] {
+  color: rgb(44, 47, 46);
+  background-color: beige;
+  padding: 8px;
+  border: 1px solid beige;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#Texto {
+  color: rgb(44, 47, 46);
+  background-color: beige;
+  padding: 6px;
+  border: 1px solid beige;
+  border-radius: 2px;
+}
+
+#Texto2 {
+  color: rgb(44, 47, 46);
+  background-color: beige;
+  padding: 6px;
+  border: 1px solid beige;
+  border-radius: 2px;
+}
+
+input[type="radio"] {
+  background-color: #83d4d68f;
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  color: black;
+  background-color: #83d4d68f;
+  padding: 10px 15px;
+  border: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #54b4b78f;
+}
+
+aside {
+  float: right;
+  height: 200px;
+  width: 80px;
 }

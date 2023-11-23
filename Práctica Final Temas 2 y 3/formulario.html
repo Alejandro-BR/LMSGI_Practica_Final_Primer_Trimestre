@@ -24,83 +24,87 @@
     <br>
   </header>
   <main>
-    <Form>
+    <div>
+      <Form>
 
-      <fieldset>
-        <legend>Datos personales</legend>
+        <fieldset>
+          <legend>Datos personales</legend>
+          <br>
 
-        <!-- Nombre -->
-        <label for="text">Nombre: </label>
-        <input id="Nombre" type="text" placeholder="Tu nombre">
+          <!-- Nombre -->
+          <label for="text">Nombre: </label>
+          <input id="Nombre" type="text" placeholder="Tu nombre">
+
+          <br>
+          <br>
+
+          <!-- Email -->
+          <label for="Email">Correo electronico: </label>
+          <input type="email" id="Email" placeholder="nombre@servidor.com">
+
+          <br>
+          <br>
+
+          <!-- Edad -->
+          <label for="number">¿Cuantos años tienes?: </label>
+          <input type="number" id="años" input value="18">
+
+          <br>
+          <br>
+
+          <!-- Sexp -->
+          <label for="radio">Sexo: </label>
+          <input id="radio" type="radio" name="Hombre" value="Sexo" /> Hombre
+          <input type="radio" name="Mujer" value="Sexo" /> Mujer
+
+          <br>
+          <br>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>Informe</legend>
+          <br>
+
+          <!-- Cuadro de texto -->
+          <label for="Texto">Opinion: </label>
+          <br>
+          <textarea id="Texto" cols="70" rows="2"></textarea>
+
+          <br>
+
+          <!-- Marcadores -->
+          <input type="radio" id="radio">
+          <label for="radio">Increible</label>
+
+          <input type="radio" id="radio">
+          <label for="radio">Buena</label>
+
+          <input type="radio" id="radio">
+          <label for="radio">Normalita</label>
+
+          <input type="radio" id="radio">
+          <label for="radio">Mejorable</label>
+
+          <input type="radio" id="radio">
+          <label for="radio">Mala</label>
+
+          <br>
+          <br>
+
+          <!-- Cuadro de texto 2 -->
+          <label for="Texto">Sugerencias: </label>
+          <br>
+          <textarea id="Texto2" cols="70" rows="2"></textarea>
+
+          <br>
+
+        </fieldset>
 
         <br>
         <br>
-
-        <!-- Email -->
-        <label for="Email">Correo electronico: </label>
-        <input type="email" id="Email" placeholder="nombre@servidor.com">
-
-        <br>
-        <br>
-
-        <!-- Edad -->
-        <label for="number">¿Cuantos años tienes?: </label>
-        <input type="number" id="años" input value="18">
-
-        <br>
-        <br>
-
-        <!-- Sexp -->
-        <label for="radio">Sexo: </label>
-        <input id="radio" type="radio" name="Hombre" value="Sexo" /> Hombre
-        <input type="radio" name="Mujer" value="Sexo" /> Mujer
-
-        <br>
-        <br>
-      </fieldset>
-      <br>
-      <fieldset>
-        <legend>Informe</legend>
-
-        <!-- Cuadro de texto -->
-        <label for="Texto">Opinion: </label>
-        <br>
-        <textarea id="Texto" cols="80" rows="3"></textarea>
-
-        <br>
-
-        <!-- Marcadores -->
-        <input type="radio" id="radio">
-        <label for="radio">Increible</label>
-
-        <input type="radio" id="radio">
-        <label for="radio">Buena</label>
-
-        <input type="radio" id="radio">
-        <label for="radio">Normalita</label>
-
-        <input type="radio" id="radio">
-        <label for="radio">Mejorable</label>
-
-        <input type="radio" id="radio">
-        <label for="radio">Mala</label>
-
-        <br>
-        <br>
-
-        <!-- Cuadro de texto 2 -->
-        <label for="Texto">Sugerencias: </label>
-        <br>
-        <textarea id="Texto2" cols="80" rows="3"></textarea>
-
-        <br>
-
-      </fieldset>
-
-      <br>
-      <br>
-      <input type="submit" id="Enviar" value="Enviar" />
-    </Form>
+        <input type="submit" id="Enviar" value="Enviar" />
+      </Form>
+    </div>
     <br>
     <br>
     <br>
@@ -108,7 +112,9 @@
     <br>
     <br>
   </main>
-
+  <aside>
+    <img src="img/formulario.jpg">
+  </aside>
   <footer>
     <hr>
     <p>Autor: Alejandro Barrionuevo Rosado</p>
