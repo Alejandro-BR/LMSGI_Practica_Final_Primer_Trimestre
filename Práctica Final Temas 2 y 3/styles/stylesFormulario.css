@@ -103,3 +103,16 @@ aside {
   height: 200px;
   width: 80px;
 }
+
+.floating-image {
+  width: 100%;
+  float: right;
+  box-sizing: border-box;
+  margin-left: 600px;
+}
+
+.formulario {
+  /* float: left; */
+  width: 100%;
+  margin: auto;
+}
