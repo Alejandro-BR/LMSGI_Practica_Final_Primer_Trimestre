@@ -1,3 +1,6 @@
+/* Alejandro Barrionuevo Rosado
+ * CSS principal       */
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -20,4 +23,38 @@ li a {
 
 li a:hover {
   background-color: #015e61;
+}
+
+header {
+  background-color:#009aa0;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: Arial;
+}
+
+section {
+  float: left;
+  width: 100%;
+  margin: auto;
+  font-family: Arial;
+}
+
+h2{
+  color: #015e61;
+}
+
+footer {
+  color: #015e61;
+  clear: left;
+}
+
+hr {
+  border-color: #009aa0;
+  background-color: #009aa0;
+}
+
+.paginas{
+  color: #015e61;
+  font-style: italic;
 }
