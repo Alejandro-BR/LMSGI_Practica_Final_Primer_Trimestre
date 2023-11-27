@@ -1,4 +1,7 @@
-ul {
+/* Alejandro Barrionuevo Rosado
+ * CSS documentacion       */
+
+.ul-menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -6,7 +9,7 @@ ul {
   overflow: hidden;
 }
 
-li {
+.li-menu {
   float: left;
 }
 

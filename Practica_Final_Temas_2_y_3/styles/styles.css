@@ -1,7 +1,7 @@
 /* Alejandro Barrionuevo Rosado
  * CSS principal       */
 
-ul {
+.ul-menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -9,11 +9,11 @@ ul {
   overflow: hidden;
 }
 
-li {
+.li-menu {
   float: left;
 }
 
-li a {
+.a-menu {
   display: block;
   color: white;
   text-align: center;
@@ -21,7 +21,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.a-menu:hover {
   background-color: #015e61;
 }
 
