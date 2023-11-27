@@ -24,3 +24,54 @@ li a {
 li a:hover {
   background-color: #015e61;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.menu {
+  background-color: #444;
+}
+
+.menu-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu-item {
+  float: left;
+}
+
+.menu-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu-item a:hover {
+  background-color: #555;
+}
+
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  white-space: pre-wrap;
+}
+
+code {
+  color: #333;
+}
