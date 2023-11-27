@@ -1,6 +1,7 @@
 /* Alejandro Barrionuevo Rosado
  * CSS documentacion       */
 
+/*Menu de navegacion entre paqguinas*/
 .ul-menu {
   list-style-type: none;
   margin: 0;
@@ -25,20 +26,33 @@ li a:hover {
   background-color: #015e61;
 }
 
+/*Cuerpo general*/
 body {
   font-family: Arial, sans-serif;
   margin: 0;
 }
 
+hr {
+  border-color: #009aa0;
+  background-color: #009aa0;
+}
+
+main {
+  clear: left;
+}
+
+/*Menu de navegacion interno*/
 header {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
+  background-color: #009aa0;
+  color: #009aa0;
+  text-align: left;
+  width: 200px;
+  padding: 30px;
 }
 
 .menu {
-  background-color: #444;
+  float: center;
+  background-color: #009aa0;
 }
 
 .menu-list {
@@ -46,32 +60,45 @@ header {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: #009aa0;
 }
 
 .menu-item {
   float: left;
+  clear: left;
+  width: 1903px;
+  background-color: #009aa0;
 }
 
 .menu-item a {
   display: block;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
+  text-align: left;
+  padding: 8px 16px;
   text-decoration: none;
 }
 
 .menu-item a:hover {
-  background-color: #555;
+  background-color: #015e61;
+
 }
 
+/*Codigo de ejemplo Arduino*/
 pre {
   background-color: #f4f4f4;
   padding: 10px;
   overflow: auto;
   border: 1px solid #ccc;
   white-space: pre-wrap;
+  width: 600px;
 }
 
 code {
   color: #333;
+}
+
+/*Pie de pagina*/
+footer {
+  color: #015e61;
+  clear: left;
 }
