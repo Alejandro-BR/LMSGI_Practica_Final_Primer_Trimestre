@@ -2,7 +2,8 @@
  * CSS de la pagina autor       */
 
 body {
-  background-color: #015e618f; /* color azul */
+  background-color: #015e618f; 
+  font-family: Arial, sans-serif;
 }
 
 hr {
