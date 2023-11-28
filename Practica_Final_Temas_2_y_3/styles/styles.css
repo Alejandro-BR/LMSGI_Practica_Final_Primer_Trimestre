@@ -1,6 +1,10 @@
 /* Alejandro Barrionuevo Rosado
  * CSS principal       */
 
+body {
+  font-family: Arial, sans-serif;
+}
+
 .ul-menu {
   list-style-type: none;
   margin: 0;
